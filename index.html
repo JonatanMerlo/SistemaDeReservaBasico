@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexStyle.css">
+    <script src="./db/data.js"></script>
+    <script src="./js/login.js"></script>
+    <title>Login</title>
+</head>
+<body>
+        <div class="container">
+            <h2>BIENVENIDO</h2>
+            <div class="login">
+                <form action="POST">
+                    <input type="text" id="userName" name="userName" placeholder="Usuario">
+                    <span class="hidden errorMessage">El usuario o la contraseña no son correctos</span>
+                    <input type="password" id="userPassword" name="userPassword" placeholder="Contraseña">
+                    <span class="hidden errorMessage">El usuario o la contraseña no son correctos</span>
+                    <button type="submit">INGRESAR</button>
+                </form>
+            </div>
+            <p>¿No tienes una cuenta? <a href="./singup.html">Registrate</a></p>
+        </div>
+</body>
+</html>

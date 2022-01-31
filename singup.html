@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/singupStyle.css">
+    <script src="./js/singup.js"></script>
+    <script src="./db/data.js"></script>
+    <title>Login</title>
+</head>
+<body>
+        <div class="container">
+            <h2>REGISTRATE</h2>
+            <div class="registre">
+                <form action="POST">
+                    <input type="text" id="firstName" name="firstName" placeholder="Nombre">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <input type="text" id="lastName" name="lastName" placeholder="Apellido">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <input type="text" name="email" id="email" placeholder="ejemplo@gmail.com">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <input type="text" id="userName" name="userName" placeholder="Nombre de usuario">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <input type="password" id="userPassword" name="userPassword" placeholder="Contraseña">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Repetir contraseña">
+                    <span class="hidden errorMessage">Ocurrio algun error</span>
+                    <div class="buttonContainer">
+                        <button type="submit" id="submit">REGISTRARSE</button>
+                        <p>¿Ya tienes una cuenta? <a href="./index.html">Iniciar Sesión</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
