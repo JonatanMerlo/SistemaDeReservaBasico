@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
 
                 user = {};
 
-                location.href = "../index.html"
+                location.href = "./index.html"
             }
             if(!esEmail && !elementoVacio(email)){
                 ERROR[2].classList.remove("hidden")
